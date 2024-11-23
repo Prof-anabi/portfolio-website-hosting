@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error page</title>
+
+    <!-- scroll reveal -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper css and js files-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+    
+    <!-- custom javascript file -->
+    <script defer type="text/javascript" src="./scripts/main.js"></script>
+     <style>       
+        .container {
+            margin-top: 10%;
+            padding: 5%;
+            
+        }
+        
+        @media (max-width: 617px){
+            .container {
+                height: 100vh;
+            }
+        }
+        h1 {
+            font-size: 3rem;
+            color: #754ef9;
+        }
+        
+        p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .error a{
+            color: #453186;
+        }
+        
+        .map {
+            position: relative;
+            margin-top: 15%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 50vw;
+        }
+        
+        .content {
+            text-align: center;
+        }
+
+        .footer {
+            position: static;
+            bottom: 0;
+        }
+        
+     </style>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="/" class="logo"><code>&#60;</code>anabi-asah/<code>&#62;</code></a>
+
+        <nav class="navbar error">
+            <a href="#home" class="acive logo"><i class='bx bx-home-heart'></i>Home</a>
+            <a href="/index.html#about">About</a>
+            <a href="/index.html#services">Services</a>
+            <a href="/index.html#portfolio">Portfolio</a>
+            <a href="/index.html#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Error page design -->
+    <div class="container">
+        <img src="/images/lostmap.jpg" alt="Map Illustration" class="map">
+        <div class="content">
+            <h1>Oops! Page Not Found</h1>
+            <p>It seems you've lost your way. The page you're looking for doesn't exist.</p>
+            <a href="/index.html" class="btn">Go to Homepage</a>
+        </div>
+    </div>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear()) 
+                </script> | ALL RIGHTS RESERVED!
+            </p>
+            <p>Designed with ❤ by ANABI ASAH</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <script>
+        
+
+    </script>
+</body>
+</html>

@@ -13,7 +13,7 @@ This project demonstrates how to host a  website using Amazon S3 (Simple Storage
    - [Enable Static Website Hosting](#enable-static-website-hosting)
    - [Adjust Permissions](#adjust-permissions)
 3. [Troubleshooting](#troubleshooting)
-4. [Additional Resources](#additional-resources)
+4. [Resources](#additional-resources)
 
 ---
 
